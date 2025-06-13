@@ -5,29 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="assets/favicom.svg" type="image/x-icon" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Innoson-Group</title>
   </head>
   <body class="font-[Noto_Sans]">
     <!-- nav -->
     <nav
-      class="container mx-auto px-3 py-2 md:px-16 py-4 flex justify-between items-center"
+      class="container mx-auto px-3 py-2 md:px-16 py-4 flex justify-between items-center bg-text-[#FFFFFF]"
     >
       <img
         src="assets/Frame 23.svg"
         alt="flame logo"
-        class="w-40 md;w-[221px]"
+        class="w-40 md:w-[221px]"
       />
       <!-- nav-link -->
       <ul class="hidden items-center lg:flex gap-8">
-        <li class="hover:text-[#365FA3] cursor-pointer font-[600] text-[20px] text-[#0F0F0F]">Home</li>
-        <li class="hover:text-[#365FA3] cursor-pointer font-[600] text-[20px] text-[#0F0F0F]">Companies</li>
-        <li class="hover-text:[#365FA3] cursor-pointer font-[600] text-[20px] text-[#0F0F0F]">Careers</li>
-        <li class="hover:text-[#365FA3] cursor-pointer font-[600] text-[20px] text-[#0F0F0F]">About</li>
-        <button class="bg-[#38D69E] text-[#F7F7F7] font-[600] text-[20px] rounded-sm py-[9px] px-[25px]">Contact</button>
+        <li
+          class="hover:text-[#365FA3] cursor-pointer font-[600] text-[20px] text-[#0F0F0F]"
+        >
+          Home
+        </li>
+        <li
+          class="hover:text-[#365FA3] cursor-pointer font-[600] text-[20px] text-[#0F0F0F]"
+        >
+          Companies
+        </li>
+        <li
+          class="hover-text:[#365FA3] cursor-pointer font-[600] text-[20px] text-[#0F0F0F]"
+        >
+          Products
+        </li>
+        <li
+          class="hover:text-[#365FA3] cursor-pointer font-[600] text-[20px] text-[#0F0F0F]"
+        >
+          About
+        </li>
+        <button
+          class="bg-[#38D69E] text-[#F7F7F7] font-[600] text-[20px] rounded-sm py-[9px] px-[25px]"
+        >
+          Contact
+        </button>
       </ul>
       <img
         src="assets/flam-1.svg"
@@ -36,14 +59,220 @@
       />
     </nav>
     <!-- MAIN -->
-     <main>
-        <!-- section-1 -->
-         <section class="bg-[url('assets/suv.jpg')] h-[40rem] bg-no-repeat bg-cover bg-center flex items-center">
-            <div class="text-[#FFFFFF] container mx-auto px-3 py-2 md:px-20 md:py-4">
-                <h1 class="font-[700] text-[40px] lg:text-[60px] lg:w-[40%]">Crafting Africa's Roads Ahead</h1>
-                <p class="font-[500] text-[18px] lg:text-[20px] lg:w-[41%] py-4">Our vehicle assembly line represents the essence of African innovation. From rugged off-road explorers to sleek city cruisers, we assemble vehicles that traverse the varied landscapes of our beautiful continent</p>
+    <main>
+      <!-- section-1 -->
+      <section
+        class="bg-[url('assets/suv.jpg')] h-[40rem] bg-no-repeat bg-cover bg-center flex items-center"
+      >
+        <div
+          class="text-[#FFFFFF] container mx-auto px-3 py-2 md:px-20 md:py-4"
+        >
+          <h1 class="font-[700] text-[40px] lg:text-[60px] lg:w-[40%]">
+            Crafting Africa's Roads Ahead
+          </h1>
+          <p class="font-[500] text-[18px] lg:text-[20px] lg:w-[41%] py-4">
+            Our vehicle assembly line represents the essence of African
+            innovation. From rugged off-road explorers to sleek city cruisers,
+            we assemble vehicles that traverse the varied landscapes of our
+            beautiful continent
+          </p>
+        </div>
+      </section>
+      <section
+        class="bg-[#365FA3] text-[#FFFFFF] font-[600] text-[20px] md:text-[26px] lg:text-[42px] h-[100px] lg:h-[171px] flex items-center justify-center"
+      >
+        <h2 class="px-2 md:px-0 lg:w-[50%] text-center">
+          We Don’t Just Manufacture Products, We Craft Dreams.
+        </h2>
+      </section>
+      <!-- main section,what we do -->
+      <section class="bg-[#F7F7F7] py-14">
+        <h3 class="font-[700] text-center text-[20px] pb-4 text-[#0F0F0F]">
+          What We Do
+        </h3>
+        <!-- section-1 for automobile -->
+        <section class="container mx-auto px-3 py-2 md:px-20 md:py-4">
+          <div
+            class="bg-[#FFFFFF] :py-[45px] px-[47px] lg:flex justify-center items-center gap-4"
+          >
+            <img src="assets/automobile.jpg" alt="automobile img" />
+            <div class="lg:px-12 pt-6 lg:pt-0">
+              <h2 class="font-[600] text-[26px] lg:text-[35px] text-[#365FA3]">
+                Automobile Manufacturing
+              </h2>
+              <p
+                class="font-[400] text-[#0F0F0F] text-[16px] leading-relaxed py-4"
+              >
+                Innoson Vehicle Manufacturing [IVM] introduces automotive
+                products from China, Japan and Germany. Our product line
+                includes heavy duty vehicles, middle and high level buses,
+                special environment friendly vehicles. The company carries out
+                optimization design and assembly according to African road
+                condition so as produce suitable products at affordable prices.
+              </p>
+              <button
+                class="bg-[#38D69E] py-[10px] px-[25px] flex gap-2 items-center font-[500] text-[20px] text-[#F7F7F7] border-none cursor-pointer"
+              >
+                Learn more <img src="assets/Arrow 1.svg" alt="arrow img" />
+              </button>
             </div>
-         </section>
-     </main>
+          </div>
+        </section>
+        <!-- section-2-plastic- manufacturing -->
+        <section class="container mx-auto px-3 py-2 md:px-20 md:py-4">
+          <div
+            class="bg-[#FFFFFF] :py-[45px] px-[47px] flex justify-center items-center gap-4 flex-col-reverse lg:flex-row"
+          >
+            <div class="lg:px-12 pt-6 lg:pt-0">
+              <h2 class="font-[600] text-[26px] lg:text-[35px] text-[#365FA3]">
+                Plastic Manufacturing
+              </h2>
+              <p
+                class="font-[400] text-[#0F0F0F] text-[16px] leading-relaxed py-4"
+              >
+                Innoson Technical & Industrial Co. Ltd manufactures high quality
+                household and industrial plastics, health & safety accessories,
+                storage containers, fixtures & fittings, electrical components &
+                accessories. Plastic products manufactured include; plastic
+                chairs, tables, trays, plates, spoons, cups, jerry cans of
+                different sizes and many other allied products.
+              </p>
+              <button
+                class="bg-[#38D69E] py-[10px] px-[25px] flex gap-2 items-center font-[500] text-[20px] text-[#F7F7F7] border-none cursor-pointer"
+              >
+                Learn more <img src="assets/Arrow 1.svg" alt="arrow img" />
+              </button>
+            </div>
+            <img src="assets/plastic svg.1.svg" alt="plast img" />
+          </div>
+        </section>
+        <!-- section-2-motorcycle- manufacturing -->
+        <section class="container mx-auto px-3 py-2 md:px-20 md:py-4">
+          <div
+            class="bg-[#FFFFFF] :py-[45px] px-[47px] lg:flex justify-center items-center gap-4"
+          >
+            <img src="assets/bike svg.svg" alt="automobile img" />
+            <div class="lg:px-12 pt-6 lg:pt-0">
+              <h2 class="font-[600] text-[26px] lg:text-[35px] text-[#365FA3]">
+                Motorcycle Manufacturing
+              </h2>
+              <p
+                class="font-[400] text-[#0F0F0F] text-[16px] leading-relaxed py-4"
+              >
+                Innoson Nigeria Limited Nnewi Manufactures motorcycles, tri-cycles, spare parts and accessories. We pioneered the first Made-in-Nigeria Motorcycle brand that sold for as low as N60,000. By year 2002, we successfully drove out tokunbo (foreign used) motorcycles out of Nigeria forever
+              </p>
+              <button
+                class="bg-[#38D69E] py-[10px] px-[25px] flex gap-2 items-center font-[500] text-[20px] text-[#F7F7F7] border-none cursor-pointer"
+              >
+                Learn more <img src="assets/Arrow 1.svg" alt="arrow img" />
+              </button>
+            </div>
+          </div>
+        </section>
+        <!-- section-2-tires- manufacturing -->
+        <section class="container mx-auto px-3 py-2 md:px-20 md:py-4">
+          <div
+            class="bg-[#FFFFFF] :py-[45px] px-[47px] flex justify-center items-center gap-4 flex-col-reverse lg:flex-row"
+          >
+            <div class="lg:px-12 pt-6 lg:pt-0">
+              <h2 class="font-[600] text-[26px] lg:text-[35px] text-[#365FA3]">
+                Tires & Tubes Manufacturing
+              </h2>
+              <p
+                class="font-[400] p-2 text-[#0F0F0F] text-[16px] leading-relaxed py-4"
+              >
+                General Tyres & Tubes Co. Ltd Enugu, manufacturers of high
+                quality tyres & Tubes. The plant has a production capacity of
+                about 8,000 pieces of motorcycle tyres daily and 13,000 tubes
+                daily.
+              </p>
+              <button
+                class="bg-[#38D69E] py-[10px] px-[25px] flex gap-2 items-center font-[500] text-[20px] text-[#F7F7F7] border-none cursor-pointer"
+              >
+                Learn more <img src="assets/Arrow 1.svg" alt="arrow img" />
+              </button>
+            </div>
+            <img src="assets/tires and tube.svg" alt="plast img" />
+          </div>
+          <!-- section-hands -->
+          <section
+            class="bg-[url('assets/hands.jpg')] my-10 h-[30rem] bg-no-repeat bg-cover bg-center flex items-center"
+          >
+            <div
+              class="text-[#FFFFFF] container mx-auto px-3 py-2 md:px-20 md:py-4"
+            >
+              <h1
+                class="font-[700] text-[20px] border w-[100%] text-center lg:text-[35px] text-[#FFFFFF]"
+              >
+                Elevating Africa through Excellence in Manufacturing.
+              </h1>
+            </div>
+          </section>
+        </section>
+      </section>
+      <!-- section-3 about us-->
+      <footer class="bg-[#0F0F0F] text-[#FFFFFF] py-20 px-3 md:px-20">
+        <div
+          class="felx felx-col lg:flex-row justify-between items-start gap-8 flex flex-col  lg:flex-row"
+        >
+          <div class="w-[365px] lg:pt[28px] lg:pl-[131px] gap-[23px]">
+            <img src="assets/ivm.svg" alt="ivm-img" />
+            <p
+              class="text-[16px] font-[400] w-[334px] h-[48px] leading-[150%] mt-4 mb-2"
+            >
+              Subscribe to our newsletter to be one of the first to receive
+              updates on Innoson Group
+            </p>
+            <p class="text-[20px] font-[600] leading-[100%] mb-2">
+              Newsletter Sign Up
+            </p>
+            <input
+              type="text"
+              placeholder="Email"
+              required
+              class="border-1 rounded py-[14px] px-[10px] gap-[7px]"
+            />
+            <button
+              class="bg-[#2E3192] rounded py-[14px] px-[16px] font-semibold text-[#FFFFFF]"
+            >
+              Email address
+            </button>
+          </div>
+          <!-- address -->
+          <div class="w-[365px] lg:pt[28px] lg:pl-[131px] gap-[23px]">
+            <p class="text-[16px] font-[600] leading-[100%] pt-6 p -4">Address</p>
+            <p  class="text-[20px] font-[600] leading-[100%]">Head Office</p>
+            <p>
+             No 95 Owerri Road,P.O. Box 1068, Umudim, Nnewi,Anambra
+              State
+            </p>
+            <p class="text-[20px] font-[600] leading-[100%] pb-2">Lagos Office</p>
+            <p>
+               Plot 1 Block A,Amuwo Odofin Ind. Estate,Oshodi,
+              Apapa,Lagos State
+            </p>
+          </div>  
+            <!-- contact -->
+            <div class="w-[362px] lg:pt[28px] lg:pt-[20px] lg:pl-[131px] gap-[23px]">
+              <p class="text-[20px] font-[600] leading-[100%] pb-4">Contact</p>
+              <div class="flex items-center spacying-x-2 pb-2">
+                <img src="assets/fb svg.svg" alt="fb img" class="w-[30px] h-[30px]" />
+                <p>@innosongroup.com</p>
+              </div>
+              <div class="flex items-center spacying-x-2 pb-2">
+                <img src="assets/ig svg.svg" alt="ig img" class="w-[30px] h-[30px]" />
+                <p>@innosongroup</p>
+              </div>
+              <div class="flex items-center spacying-x-2 pb-2">
+                <img src="assets/gmail svg.svg" alt="gmail img" class="w-[30px] h-[30px]" />
+                <p>sales@innosongroup</p>
+              </div>
+            </div>
+          </div>
+          <div class="border-t-[1px] border-t-[#F7F7F7] w-full mt-8 pt-4">
+              <p class="text-center text-[16px] font=[400] leading-[150%]">© 2016 Innoson Group of Companies</p>
+            </div>
+      </footer>
+    </main>
   </body>
 </html>
